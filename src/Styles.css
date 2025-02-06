@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to top right, #2b2b2b, #838383);
+  color: rgb(0, 0, 0);
+  font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #1a1a1a;
+}
+
+.skills-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #3f3f3f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.flag-container img {
+  margin-right: 10px;
+}
+
+.rainbow {
+  background: linear-gradient(135deg, 
+  #F24E1E 0%,   /* Red */
+  #FF7262 25%,  /* Orange */
+  #A259FF 50%,  /* Purple */
+  #0ACF83 75%,  /* Green */
+  #1ABCFE 100%  /* Blue */
+);
+border-radius: 10px;
+
+}
+ 
+
+.center-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.skills-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}

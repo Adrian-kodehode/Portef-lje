@@ -1,0 +1,81 @@
+body.dark-mode {
+  background: linear-gradient(to top right, #2c2b2b, #181616);
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.flag-container img {
+  margin-right: 10px;
+}
+
+.icons-and-switch {
+  display: flex;
+  align-items: end;
+}
+
+.icons-and-switch a {
+  margin-right: 10px;
+}
+
+.mail-icon svg {
+  color: #ffffff;
+}
+
+.linkedin-icon svg {
+  color: #ffffff;
+}
+
+.github-icon svg {
+  color: #ffffff;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #686868;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #00ff0d;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
