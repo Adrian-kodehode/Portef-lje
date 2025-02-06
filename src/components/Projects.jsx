@@ -41,7 +41,7 @@ const Projects = () => {
           />
           <p>{project.tech}</p>
           <a href={project.repo} target="_blank" rel="noopener noreferrer">
-            <button>{translations[language].seProsjekter}</button>
+            <button>{translations[language].seProsjekt}</button>
           </a>
         </div>
       ))}

@@ -12,8 +12,8 @@ const translations = {
     text: "Hi! My name is Adrian, and I'm a front-end developer with skills in ",
     text2:
       "I have experience developing websites using these technologies and ensuring they are fully optimized and tailored to a responsive user experience.",
-    seProsjekter: "See Projects",
-    and: "and"
+    seProsjekt: "See Project",
+    and: "and",
   },
   no: {
     aboutMe: "Om Meg",
@@ -24,8 +24,8 @@ const translations = {
     text: "Hei! Jeg heter Adrian, og jeg er en front-end utvikler med ferdigheter i ",
     text2:
       "Jeg har erfaring med å utvikle nettsider ved bruk av disse teknologiene og sørger for at de er fullt optimaliserte og tilpasset en responsiv brukeropplevelse.",
-    seProsjekter: "Se Prosjekter",
-    and: "og"
+    seProsjekt: "Se Prosjekt",
+    and: "og",
   },
 };
 
