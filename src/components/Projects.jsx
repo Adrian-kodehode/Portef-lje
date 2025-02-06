@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     img: SCHIZO,
     tech: "HTML, CSS, JavaScript, React",
-    repo: "https://github.com/Adrian-kodehode",
+    repo: "https://adrian-kodehode.github.io/Portef-lje/",
   },
   {
     id: 2,
