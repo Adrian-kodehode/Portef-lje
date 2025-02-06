@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./Header.css";
 import { useLanguage } from "../context/LanguageProvider";
+import NorwayFlag from "../assets/Norway.png";
+import USFlag from "../assets/United_States.png";
 
 const Header = () => {
   const [darkmode, setDarkmode] = useState(
@@ -23,14 +25,14 @@ const Header = () => {
     <header>
       <div className="flag-container">
         <img
-          src="/Norway.png"
+          src={NorwayFlag}
           alt="Norwegian flag"
           width="30"
           onClick={() => setLanguage("no")}
           style={{ cursor: "pointer", marginRight: "10px" }}
         />
         <img
-          src="/United_States.png"
+          src={USFlag}
           alt="US flag"
           width="41"
           onClick={() => setLanguage("en")}

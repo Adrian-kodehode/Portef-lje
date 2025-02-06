@@ -2,6 +2,7 @@ import React from "react";
 import { FaEnvelope, FaGithub } from "react-icons/fa";
 import { useLanguage } from "../context/LanguageProvider";
 import "./AboutMe.css";
+import images from "../assets/images 1.png"
 
 const AboutMe = () => {
   const { language, translations } = useLanguage();
@@ -52,7 +53,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="profile-pic">
-          <img src="/images 1.png" alt="Profile" />
+          <img src={images} alt="Profile" />
           <div className="name">Adrian Eriksen</div>
         </div>
       </div>

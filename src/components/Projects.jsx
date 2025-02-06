@@ -1,21 +1,24 @@
 import { useLanguage } from "../context/LanguageProvider";
+import GAMBA from "../assets/GAMBA-4x.gif";
+import SCHIZO from "../assets/SCHIZO-4x.gif";
+import PokeMon from "../assets/PokeMon-4x.png";
 
 const projects = [
   {
     id: 1,
-    img: "/SCHIZO-4x.gif",
+    img: SCHIZO,
     tech: "HTML, CSS, JavaScript, React",
     repo: "https://github.com/Adrian-kodehode",
   },
   {
     id: 2,
-    img: "/GAMBA-4x.gif",
+    img: GAMBA,
     tech: "HTML, CSS, JavaScript ",
     repo: "https://github.com/sander1222/gruppenr1",
   },
   {
     id: 3,
-    img: "/PokeMon-4x.png",
+    img: PokeMon,
     tech: "HTML, CSS, JavaScript ",
     repo: "https://github.com/sander1222/api-oppgave",
   },
